@@ -1,4 +1,9 @@
-# ![Ali Safarpour, frontend engineer. Illustrated with a 42-key split keyboard.](./assets/keyboard.png)
+<h1>
+  <picture>
+    <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/keyboard-entrance.svg">
+    <img src="./assets/keyboard.png" width="1200" alt="Ali Safarpour, frontend engineer. Illustrated with a 42-key split keyboard.">
+  </picture>
+</h1>
 
 I came to frontend engineering from civil engineering. I like interfaces I can navigate entirely by keyboard, and I spend a lot of time thinking about where state belongs.
 
