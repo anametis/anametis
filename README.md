@@ -1,8 +1,12 @@
 # ![Ali Safarpour, frontend engineer. Illustrated with a 42-key split keyboard.](./assets/keyboard.png)
 
-I came to frontend development from civil engineering. I work mostly in TypeScript, React, and Svelte. I care about how an interface feels with a keyboard and where its state belongs.
+I came to frontend development from civil engineering. I care about how an interface feels with a keyboard and where its state belongs.
 
 [Email me](mailto:alisafarpour.1997@gmail.com) · [LinkedIn](https://linkedin.com/in/ali-safarpour-dev)
+
+## My stack
+
+<img src="./assets/stack/typescript.svg" width="22" height="22" align="center" alt=""/>&nbsp;TypeScript &nbsp;·&nbsp; <img src="./assets/stack/react.svg" width="22" height="22" align="center" alt=""/>&nbsp;React &nbsp;·&nbsp; <img src="./assets/stack/svelte.svg" width="22" height="22" align="center" alt=""/>&nbsp;Svelte &nbsp;·&nbsp; <img src="./assets/stack/tailwindcss.svg" width="22" height="22" align="center" alt=""/>&nbsp;Tailwind&nbsp;CSS &nbsp;·&nbsp; <img src="./assets/stack/vitest.svg" width="22" height="22" align="center" alt=""/>&nbsp;Vitest
 
 <details>
 <summary><strong>Tools and current interests</strong></summary>
