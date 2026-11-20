@@ -1,19 +1,8 @@
 # ![Ali Safarpour, frontend engineer. Illustrated with a 42-key split keyboard.](./assets/keyboard.png)
 
-I’m Ali, a former civil engineer building trading tools at [TradingFinder](https://tradingfinder.com). I work mostly in TypeScript, React, and Svelte. I care about how an interface feels with a keyboard and where its state belongs.
+I came to frontend development from civil engineering. I work mostly in TypeScript, React, and Svelte. I care about how an interface feels with a keyboard and where its state belongs.
 
 [Email me](mailto:alisafarpour.1997@gmail.com) · [LinkedIn](https://linkedin.com/in/ali-safarpour-dev)
-
-## Selected projects
-
-**[Kara](https://github.com/anametis/mono-editor)**\
-A publishing system that takes a story from draft to review to publication. Editors work in React, and readers get a Next.js journal.
-
-**[Data table](https://github.com/anametis/ssg-data-table)**\
-A Next.js experiment in presenting the same dataset on a desktop and a phone, with filters, charts, and a card view for smaller screens.
-
-**[Split keyboard keymap](https://github.com/anametis/corne-wings)**\
-My ZMK configuration for the Ergonaut One. The [layout diagrams](https://github.com/anametis/corne-wings/tree/HEAD/keymap-drawer) show what each key does as you switch layers.
 
 <details>
 <summary><strong>Tools and current interests</strong></summary>
