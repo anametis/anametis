@@ -26,7 +26,10 @@ My undefeated foosball record is fiercely disputed. Here’s your shot. The rods
 <details>
 <summary>A · Aim for the high post</summary>
 
-![The diagonal shot hits the defender and kicks back.](./assets/foosball-high.svg)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/foosball-high-still.png">
+  <img src="./assets/foosball-high.svg" width="570" alt="The diagonal shot hits the defender and kicks back.">
+</picture>
 
 Blocked. The far corner is open, but the defender gets a foot to the diagonal. Try another shot.
 
@@ -35,7 +38,10 @@ Blocked. The far corner is open, but the defender gets a foot to the diagonal. T
 <details>
 <summary>B · Bank off the rail</summary>
 
-![The bank shot rebounds off the rail and rolls into the net.](./assets/foosball-bank.svg)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/foosball-bank-still.png">
+  <img src="./assets/foosball-bank.svg" width="570" alt="The bank shot rebounds off the rail and rolls into the net.">
+</picture>
 
 **Goal!** The rebound slips behind the defender and above the keeper. There goes my record.
 
@@ -44,7 +50,10 @@ Blocked. The far corner is open, but the defender gets a foot to the diagonal. T
 <details>
 <summary>C · Shoot straight</summary>
 
-![The straight shot rebounds off the keeper.](./assets/foosball-straight.svg)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/foosball-straight-still.png">
+  <img src="./assets/foosball-straight.svg" width="570" alt="The straight shot rebounds off the keeper.">
+</picture>
 
 Saved. You beat the defender, but the keeper is waiting on the ball’s line. Try another shot.
 
