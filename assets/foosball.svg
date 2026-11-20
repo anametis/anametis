@@ -1,6 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="570" height="244" viewBox="0 0 570 244" role="img" aria-labelledby="title desc">
   <title id="title">Beat the keeper</title>
   <desc id="desc">A foosball table viewed from above. The ball is on the left and the goal is on the right. A aims diagonally toward the high post, B bounces off the top rail, and C goes straight toward the low post. The defender sits above the ball’s horizontal line. The keeper sits on that line.</desc>
+  <style>
+    .trail { display: none; fill: none; stroke: #f6e7bf; stroke-width: 2.6; stroke-dasharray: 4 6; stroke-linecap: round; }
+    .shot:target ~ .overview { display: none; }
+    #high:target ~ .high, #bank:target ~ .bank, #straight:target ~ .straight { display: inline; }
+    #high:target ~ .ball { --contact: translate(257px, 132px); --finish: translate(221px, 148px); }
+    #bank:target ~ .ball { --contact: translate(337px, 33px); --finish: translate(534px, 143px); }
+    #straight:target ~ .ball { --contact: translate(431px, 159px); --finish: translate(393px, 159px); }
+    .ball { transform: translate(110px, 159px); }
+    .shot:target ~ .ball { transform: var(--finish); }
+    @media (prefers-reduced-motion: no-preference) {
+      .shot:target ~ .ball { animation: shot 4s linear infinite; }
+      @keyframes shot {
+        0%, 15% { transform: translate(110px, 159px); }
+        47% { transform: var(--contact); }
+        71%, 100% { transform: var(--finish); }
+      }
+    }
+  </style>
+  <g class="shot" id="high"/>
+  <g class="shot" id="bank"/>
+  <g class="shot" id="straight"/>
   <defs>
     <pattern id="net" width="7" height="7" patternUnits="userSpaceOnUse">
       <path d="M0 0H7V7" fill="none" stroke="#a4c3af" stroke-width="1"/>
@@ -28,21 +49,26 @@
   <path d="M57 85a37 37 0 0 1 0 74" fill="none" stroke="#b0d7ae" stroke-width="2" opacity=".65"/>
   <path d="M520 72h26v100h-26" fill="#204c40" stroke="#d9e6c9" stroke-width="2"/>
   <path d="M521 73h24v98h-24z" fill="url(#net)"/>
-  <g fill="none" stroke="#f6e7bf" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="5 6">
+  <g class="overview" fill="none" stroke="#f6e7bf" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="5 6">
     <path d="M110 159 521 83"/>
     <path d="m110 159 227-127 184 103"/>
     <path d="M110 159h411"/>
   </g>
+  <path class="trail high" d="M110 159 257 132 221 148"/>
+  <path class="trail bank" d="M110 159 337 33 534 143"/>
+  <path class="trail straight" d="M110 159H431 393"/>
   <use href="#rod" x="285"/><use href="#rod" x="459"/>
   <use href="#player" x="285" y="127"/><use href="#player" x="459" y="159"/>
-  <g fill="#ffe0be" stroke="#714b37" stroke-width="1.5">
+  <g class="overview" fill="#ffe0be" stroke="#714b37" stroke-width="1.5">
     <circle cx="362" cy="112" r="12"/><circle cx="221" cy="97" r="12"/><circle cx="370" cy="159" r="12"/>
   </g>
-  <g text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="15" fill="#382b3c">
+  <g class="overview" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="15" fill="#382b3c">
     <text x="362" y="117">A</text><text x="221" y="102">B</text><text x="370" y="164">C</text>
   </g>
-  <circle cx="112" cy="163" r="10" fill="#153e35" opacity=".55"/>
-  <circle cx="110" cy="159" r="9.5" fill="#fff7e6" stroke="#554857" stroke-width="1.5"/>
-  <path d="m109 154 5 2-1 5-5 1-2-4Z" fill="#554857"/>
+  <g class="ball">
+    <circle cx="2" cy="4" r="10" fill="#153e35" opacity=".55"/>
+    <circle r="9.5" fill="#fff7e6" stroke="#554857" stroke-width="1.5"/>
+    <path d="m-1-5 5 2-1 5-5 1-2-4Z" fill="#554857"/>
+  </g>
   <g fill="#81778f"><circle cx="12" cy="12" r="2"/><circle cx="558" cy="12" r="2"/><circle cx="12" cy="226" r="2"/><circle cx="558" cy="226" r="2"/></g>
 </svg>

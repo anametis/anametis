@@ -19,12 +19,14 @@ I came to frontend engineering from civil engineering. I like interfaces I can n
 
 ## Beat the keeper
 
-My undefeated foosball record is fiercely disputed. Here’s your shot. The rods are frozen. Trace a path to the goal on the right, then open your pick.
+My undefeated foosball record is fiercely disputed. Here’s your shot. The rods are frozen. Trace a path to the goal on the right, then open your pick to watch the replay.
 
 ![Foosball puzzle. A angles toward the high post. B banks off the top rail. C goes straight toward the low post. The defender covers the diagonal, and the keeper is level with the ball.](./assets/foosball.svg)
 
 <details>
 <summary>A · Aim for the high post</summary>
+
+![The diagonal shot hits the defender and kicks back.](./assets/foosball.svg#high)
 
 Blocked. The far corner is open, but the defender gets a foot to the diagonal. Try another shot.
 
@@ -33,12 +35,16 @@ Blocked. The far corner is open, but the defender gets a foot to the diagonal. T
 <details>
 <summary>B · Bank off the rail</summary>
 
+![The bank shot rebounds off the rail and rolls into the net.](./assets/foosball.svg#bank)
+
 **Goal!** The rebound slips behind the defender and above the keeper. There goes my record.
 
 </details>
 
 <details>
 <summary>C · Shoot straight</summary>
+
+![The straight shot rebounds off the keeper.](./assets/foosball.svg#straight)
 
 Saved. You beat the defender, but the keeper is waiting on the ball’s line. Try another shot.
 
